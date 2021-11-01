@@ -87,11 +87,8 @@ app.get('/', (req, res) => {
     res.send("Running TravelGuru Server");
 });
 
-app.get('/hello', (req, res) => {
-    res.send('hello updated here');
-})
+
 
 app.listen(port, () => {
     console.log('Running TravelGuru Server on port', port);
 })
-
