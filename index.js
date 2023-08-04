@@ -78,7 +78,7 @@ async function run() {
     }
     finally {
         // await client.close();
-        //added comment
+
     }
 }
 
